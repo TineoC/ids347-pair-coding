@@ -1,5 +1,3 @@
-hola
-
 ## Getting started
 
 1. [Make a repository with this template](https://github.com/DeathVenom54/typescript-minimal-starter/generate)

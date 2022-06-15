@@ -1,20 +1,37 @@
 {
-  "name": "your-project-name",
+  "name": "range-pair-coding",
   "version": "1.0.0",
   "description": "Your project description",
   "main": "dist/index.js",
-  "repository": "https://github.com/DeathVenom54/typescript-minimal-starter.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeathVenom54/typescript-minimal-starter.git"
+  },
   "author": "DeathVenom54 <fdragon602@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
     "@types/node": "^17.0.21",
-    "prettier": "^2.5.1",
-    "typescript": "^4.6.2"
+    "install": "^0.13.0",
+    "jest": "^28.1.1",
+    "npm": "^8.12.2",
+    "prettier": "^2.7.0",
+    "typescript": "^4.7.3"
   },
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "dev": "tsc -W"
+    "dev": "tsc -W",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/DeathVenom54/typescript-minimal-starter/issues"
+  },
+  "homepage": "https://github.com/DeathVenom54/typescript-minimal-starter#readme",
+  "keywords": [],
+  "dependencies": {
+    "@types/jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1"
   }
 }
